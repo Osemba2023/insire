@@ -1,0 +1,17 @@
+print("____________________________________")
+print("|        EUITY BANK LIMITED        |")
+print("|                                  |")
+print("|           CBD BRANCH             |")
+print("|                                  |")
+print("|           8TH FEB 2023           |")
+print("|                                  |")
+print("|                                  |")
+print("____________________________________")
+print("|First Name : Vincent              |")
+print("|Second Name: Osemmba              |")
+print("|Account No : 0240192345846        |")
+print("|Balance    : Ksh. 250,000         |")
+print("|  Equity, Your Caring Partner     |")
+print("____________________________________")
+
+        

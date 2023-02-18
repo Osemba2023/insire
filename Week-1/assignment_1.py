@@ -1,0 +1,5 @@
+print("_______________")
+print("      |        ")
+print("      |        ")
+print("      |        ")
+print("      |        ")
