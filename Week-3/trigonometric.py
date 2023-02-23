@@ -1,0 +1,6 @@
+cos_x=maths.cos(60)
+tax_x=maths.cos(60)
+sin_x=maths.cos(60)
+print(cos_x)
+print(tan_x)
+print(sin_x)

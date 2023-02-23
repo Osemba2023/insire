@@ -1,0 +1,8 @@
+friend={"name":"George","favourite_colour":"blue","hobbies":"reading","course":"computer science","weight":
+         "80kgs","height":"5"}
+print(friend["name"])
+print(friend["favourite_colour"])
+print(friend["hobbies"])
+print(friend["course"])
+print(friend["weight"])
+print(friend["height"])
