@@ -11,8 +11,8 @@ print(x)
 
 #setting the time
 
-s_time
-datetime(2023,02,23)()
+x=datetime.day
+s_time=datetime(2023,2,23)
 print(s_time)
 
 #def sum_num(n1,n2)--> 2 parameters

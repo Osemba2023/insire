@@ -4,12 +4,12 @@ print(name)
 print(weight)
 
 def print_hello(parameters):
-    Indentation
+    #Indentation
     #functionblock of code that are executed together
     #function use a def key word
     print("my name is Vincent")
-    print("i am from kisii")
-    print("i am 20 years old")
+    print("i am from nairobi")
+    print("i am 25 years old")
     print("my hobbies include swimming and travelling")
     #calling/invoking the function
-    def print_name(name)
+    
