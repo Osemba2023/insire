@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style">
+    <meta charset="UTF-8">
+    <style>
+        body {
+          background-color: hsl(0, 86%, 51%);
+  
+          font-family: 'Courier New', Courier, monospace;
+          color: rgb(77, 7, 241);
+          text-align: center;
+          padding: 50px;
+        }
+        h1 {
+          font-size: 36px;
+          margin-bottom: 30px;
+        }
+        p {
+          font-size: 24px;
+          margin-bottom: 20px;
+        }
+      </style>
+  </head>
+  <body>
+    <h1>LOG IN SYSTEM</h1>
+    <h2>fill the data below to</h2>
+    <label for="name">Name:</label>
+    <input type="text"><br><br>
+    <label for="age">Age:</label>
+    <input id="age" type="int"><br><br>
+    <button id="confirm_btn">CONFIRM</button>
+    <h2 id="get_in">You can get in</h2>
+
+
+    <div id="result"></div>
+    <h1 id="number">0</h1>
+    <button id="increase_btn">increase</button>
+    <button id="decrease_btn">decrease</button>
+    <button id="reset_btn">reset</button>
+
+    <script>
+      //increase
+      document.getElementById("increase_btn").onclick=function increase_number(){
+        number+= 1;
+        console.log(increase_number)
+        document.getElementById("number").innerHTML = number
+      }
+      //decrease
+      document.getElementById("decrease_btn").onclick=function decrease_number(){
+        number-=1;
+        console.log(decrease_number)
+        document.getElementById("number").innerHTML = number
+      }
+      //reset
+      document.getElementById("reset_btn").onclick=function reset_number(){
+        number = 0;
+        console.log(number)
+        document.getElementById("number").innerHTML = number
+      }
+
+        let age = 0
+        let msg =""
+
+        document.getElementsById("confirm_btn").onclick = function check_Age(){
+          console.log("Button clicked!")
+          var age = document.getElementById("age").value
+          console.log(age)
+        if (age<= 18){
+          msg = "you are not allowed"
+          console.log("you are not allowed")
+          document.getElementById("get_in").innerHTML=msg
+
+        }else{
+          msg = "welcome to the club"
+          console.log("welcome to the club")
+          document.getElementById("get_in").innerHTML=msg
+        }
+
+      }
+
+    </script>
+  </body>
+</html>
